@@ -2,3 +2,25 @@
     display: grid;
     grid-auto-flow: column;
 }
+
+#Header_one{
+    grid-auto-flow: column;
+    height: 50px;
+    justify-items: start;
+    align-items:center;
+}
+
+img{
+    height: 30%;
+    width: 20%;
+}
+
+#header_photo{
+    justify-content: start;
+    height: 40px;
+    width: 40px;
+}
+
+#nav_links{
+justify-content: end;
+}
