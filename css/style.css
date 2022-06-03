@@ -10,7 +10,7 @@
     align-items:center;
 }
 
-img{
+#articleimage{
     height: 30%;
     width: 20%;
 }
@@ -21,6 +21,17 @@ img{
     width: 40px;
 }
 
-#nav_links{
-justify-content: end;
+nav{
+justify-self: end;
+}
+
+img{
+    width: 50vw;
+    height: 50vh;
+}
+
+#divtwo>img{
+    display: grid;
+    grid-auto-flow: column;
+    repeat(auto-fit, minmax(300px 1fr));
 }
